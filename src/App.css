@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #565656;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #383838;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #1e1f22;
+}
+a{
+    text-decoration: none;
+}
+
+/*input*/
+.react-input-emoji--container{
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    color: #fff !important;
+}
