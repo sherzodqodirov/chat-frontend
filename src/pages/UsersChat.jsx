@@ -112,7 +112,7 @@ const UsersChat = () => {
                             <p>{item.content}</p>
 
                         </ItemMessage>) : (<ItemMessage bgColor={item.sender == userInfo._id}>
-                            <FileBox href={BASE_URL+item.content} download={`file-${key}`} target="_blank">
+                            <FileBox href={BASE_URL+"/"+item.content} download={`file-${key}`} target="_blank">
                                <Box sx={{
                                    display:"inline-flex",
                                    justifyContent:"center",
