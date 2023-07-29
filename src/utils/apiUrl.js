@@ -1,5 +1,5 @@
 
-export const BASE_URL = 'http://localhost:5000';
+export const BASE_URL = 'https://chat-api-fkmg.onrender.com';
 
 export const AUTH_URL ={
     register:"/auth/register",
